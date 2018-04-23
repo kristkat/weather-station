@@ -1,0 +1,15 @@
+[
+{
+"temperature":"22",
+"humidity":"43",
+"time":"23:43",
+"date":"18:04:2018"
+},
+  {
+  "temperature":"25",
+  "humidity":"20",
+  "time":"23:45",
+  "date":"18:04:2018"
+  }
+
+]

@@ -15,7 +15,7 @@
             Current Temperature
           </ion-card-header>
           <ion-card-content>
-            Something
+            {{currentTemperature}} &deg;C
           </ion-card-content>
         </ion-card>
       </ion-col>
@@ -25,29 +25,29 @@
             Current Humidity
           </ion-card-header>
           <ion-card-content>
-            Something
+            {{currentHumidity}} %
           </ion-card-content>
         </ion-card>
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col>
+      <ion-col col-6>
         <ion-card>
           <ion-card-header>
             Graph Temperature
           </ion-card-header>
           <ion-card-content>
-            <canvas #lineCanvas></canvas>
+            <canvas #lineCanvasTemperature></canvas>
           </ion-card-content>
         </ion-card>
       </ion-col>
-      <ion-col>
+      <ion-col col-6>
         <ion-card>
           <ion-card-header>
             Graph Humidity
           </ion-card-header>
           <ion-card-content>
-            Something
+            <canvas #lineCanvasHumidity></canvas>
           </ion-card-content>
         </ion-card>
       </ion-col>
